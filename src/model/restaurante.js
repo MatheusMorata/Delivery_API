@@ -30,3 +30,5 @@ Restaurante.init(
         timestamps: false,
     },
 )
+
+module.exports = Restaurante
