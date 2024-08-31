@@ -1,5 +1,5 @@
 const {DataTypes, Model} = require('sequelize')
-const conexao = require('./database/conexao')
+const conexao = require('../database/conexao')
 
 class Pedido extends Model {}
 
