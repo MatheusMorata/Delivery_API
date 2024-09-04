@@ -1,4 +1,11 @@
 {
+  "name": "Delivery-api",
+  "version": "1.0.0",
+  "description": "Uma api de delivery para um restaurante",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
