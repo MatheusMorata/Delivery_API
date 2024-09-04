@@ -3,6 +3,7 @@ const rotas = express.Router()
 
 // Todas as rotas destinadas ao cliente
 const ClienteController = require('../controller/clienteController')
-rotas.get('/', ClienteController.cadastro)
+const Cliente = new ClienteController()
+rotas.get('/', Cliente.cadastro)
 
 module.exports = rotas
