@@ -11,6 +11,15 @@ Restaurante.init(
             autoIncrement: true,
             primaryKey: true,
         },
+        email:{
+            type: DataTypes.STRING,
+            allowNull: false,
+            unique: true,
+        },
+        senha:{
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
         nome:{
             type: DataTypes.STRING,
             allowNull: false,
