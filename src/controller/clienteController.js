@@ -1,13 +1,10 @@
 class ClienteController {
-
     async cadastro(req,res){
-        email = req.body.email
-        
 
         try{
-
+            res.send('To aqui')
         }catch(error){
-
+            console.log(error)
         }
     }
 }
