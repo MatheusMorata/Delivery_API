@@ -6,7 +6,7 @@ const app = express()
 const conexao = require('./database/conexao')
 const porta = process.env.PORTA
 
-
+app.use(express.json())
 app.use(cors())
 app.use('',rotas)
 app.listen(porta, () => {
